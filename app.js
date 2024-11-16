@@ -124,8 +124,13 @@ app.post('/api/estudiantes', async (req, res) => {
 
 
 
-app.get('/', (req, res) => {
+app.get('/registro.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'registro.html'));
+});
+
+// Ruta para la página principal
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'registro.html'));
 });
 
 
