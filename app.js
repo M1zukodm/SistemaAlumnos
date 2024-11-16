@@ -128,6 +128,12 @@ app.get('/registro.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'registro.html'));
 });
 
+// Ruta para la página principal
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'registro.html'));
+});
+
+
 
 // Servir archivos estáticos (CSS, JS, imágenes, etc.)
 app.use(express.static(path.join(__dirname, 'public')));
