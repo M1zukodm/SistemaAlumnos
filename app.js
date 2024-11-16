@@ -4,8 +4,12 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 
+// Cargar variables de entorno desde .env
+require('dotenv').config();
+
 // Conexión a MongoDB
-mongoose.connect('mongodb://localhost:27017/CatalogoAlumnos', {
+ //conexion local   /*mongoose.connect('mongodb://localhost:27017/CatalogoAlumnos', {  */
+ mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

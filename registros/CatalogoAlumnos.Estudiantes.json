@@ -1,0 +1,1100 @@
+[{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8191"
+  },
+  "nombre": "Andely Galván",
+  "edad": 22,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 97,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8192"
+  },
+  "nombre": "Laura García",
+  "edad": 22,
+  "carrera": "Ingenieria en Informatica",
+  "promedio": 85,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 88
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 85
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 78
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 90
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 93
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8193"
+  },
+  "nombre": "Carlos Mendoza",
+  "edad": 20,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 88,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 90
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 85
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 78
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 65
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 82
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8194"
+  },
+  "nombre": "Ana Torres",
+  "edad": 23,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 91,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 93
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 90
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 85
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 72
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8195"
+  },
+  "nombre": "Luis Fernández",
+  "edad": 21,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 85,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 84
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 75
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 88
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ac32316b421cec70d8196"
+  },
+  "nombre": "Sofía López",
+  "edad": 22,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 94,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 97
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 92
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 88
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 90
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 93
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672d65335f3a3168cf1c607f"
+  },
+  "nombre": "Miguel Cruz Rdz",
+  "edad": 21,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 99,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672e12cfc09adbf1dce74cf6"
+  },
+  "nombre": "Jose Leonardo",
+  "edad": 22,
+  "carrera": "Diseño Grafico",
+  "promedio": 90,
+  "materias": [
+    {
+      "nombre": "Taller de Dibujo",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo Animado",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación de Componentes Visuales",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Graficación",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672e13e8c09adbf1dce74cf7"
+  },
+  "nombre": "Luis Angel Carachure Alejo",
+  "edad": 20,
+  "carrera": "Gestion Empresarial",
+  "promedio": 99,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672e143dc09adbf1dce74cf8"
+  },
+  "nombre": "Efraid Jired",
+  "edad": 19,
+  "carrera": "Arquitectura de computadoras",
+  "promedio": 79,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672e1f643e9681faf9c6f76b"
+  },
+  "nombre": "Marlene Bernal Rios",
+  "edad": 19,
+  "carrera": "Ingenieria en belleza",
+  "promedio": 99,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f76c"
+      }
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f76d"
+      }
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f76e"
+      }
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f76f"
+      }
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f770"
+      }
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f771"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "672e1f643e9681faf9c6f772"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672e33693e9681faf9c7012b"
+  },
+  "nombre": "Esbeyde Mora ",
+  "edad": 24,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 98,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "672e33693e9681faf9c7012c"
+      }
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100,
+      "_id": {
+        "$oid": "672e33693e9681faf9c7012d"
+      }
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "672e33693e9681faf9c7012e"
+      }
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70,
+      "_id": {
+        "$oid": "672e33693e9681faf9c7012f"
+      }
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "672e33693e9681faf9c70130"
+      }
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "672e33693e9681faf9c70131"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "672e33693e9681faf9c70132"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673129f92ab806407e8e6df4"
+  },
+  "nombre": "Ana López",
+  "edad": 22,
+  "carrera": "Ingeniería en Computación",
+  "promedio": 92,
+  "materias": [
+    {
+      "nombre": "Algoritmos Avanzados",
+      "calificacion": 88,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6df5"
+      }
+    },
+    {
+      "nombre": "Sistemas Operativos",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6df6"
+      }
+    },
+    {
+      "nombre": "Seguridad Informática",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6df7"
+      }
+    },
+    {
+      "nombre": "Bases de Datos",
+      "calificacion": 93,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6df8"
+      }
+    },
+    {
+      "nombre": "Programación Orientada a Objetos",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6df9"
+      }
+    },
+    {
+      "nombre": "Redes de Computadoras",
+      "calificacion": 94,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6dfa"
+      }
+    },
+    {
+      "nombre": "Arquitectura de Computadoras",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6dfb"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673129f92ab806407e8e6dfc"
+  },
+  "nombre": "Carlos García",
+  "edad": 23,
+  "carrera": "Ingeniería Industrial",
+  "promedio": 87,
+  "materias": [
+    {
+      "nombre": "Optimización de Procesos",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6dfd"
+      }
+    },
+    {
+      "nombre": "Gestión de la Producción",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6dfe"
+      }
+    },
+    {
+      "nombre": "Estadística Aplicada",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6dff"
+      }
+    },
+    {
+      "nombre": "Ingeniería de Materiales",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e00"
+      }
+    },
+    {
+      "nombre": "Mecánica de Fluidos",
+      "calificacion": 84,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e01"
+      }
+    },
+    {
+      "nombre": "Sistemas de Calidad",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e02"
+      }
+    },
+    {
+      "nombre": "Logística y Cadena de Suministro",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e03"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673129f92ab806407e8e6e04"
+  },
+  "nombre": "Laura Martínez",
+  "edad": 20,
+  "carrera": "Ciencias de la Computación",
+  "promedio": 89,
+  "materias": [
+    {
+      "nombre": "Matemáticas para Computación",
+      "calificacion": 91,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e05"
+      }
+    },
+    {
+      "nombre": "Teoría de la Computación",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e06"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 92,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e07"
+      }
+    },
+    {
+      "nombre": "Desarrollo de Aplicaciones Móviles",
+      "calificacion": 88,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e08"
+      }
+    },
+    {
+      "nombre": "Análisis de Algoritmos",
+      "calificacion": 84,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e09"
+      }
+    },
+    {
+      "nombre": "Machine Learning",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e0a"
+      }
+    },
+    {
+      "nombre": "Desarrollo Web Avanzado",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "673129f92ab806407e8e6e0b"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6731347d2ab806407e8e7249"
+  },
+  "nombre": "Alexis Rojas",
+  "edad": 21,
+  "carrera": "Ingeniería en Computación",
+  "promedio": 67,
+  "materias": [
+    {
+      "nombre": "Algoritmos Avanzados",
+      "calificacion": 88,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724a"
+      }
+    },
+    {
+      "nombre": "Sistemas Operativos",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724b"
+      }
+    },
+    {
+      "nombre": "Seguridad Informática",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724c"
+      }
+    },
+    {
+      "nombre": "Bases de Datos",
+      "calificacion": 93,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724d"
+      }
+    },
+    {
+      "nombre": "Programación Orientada a Objetos",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724e"
+      }
+    },
+    {
+      "nombre": "Redes de Computadoras",
+      "calificacion": 94,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e724f"
+      }
+    },
+    {
+      "nombre": "Arquitectura de Computadoras",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7250"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6731347d2ab806407e8e7251"
+  },
+  "nombre": "Karla Vargas",
+  "edad": 21,
+  "carrera": "Ingeniería Industrial",
+  "promedio": 88,
+  "materias": [
+    {
+      "nombre": "Optimización de Procesos",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7252"
+      }
+    },
+    {
+      "nombre": "Gestión de la Producción",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7253"
+      }
+    },
+    {
+      "nombre": "Estadística Aplicada",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7254"
+      }
+    },
+    {
+      "nombre": "Ingeniería de Materiales",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7255"
+      }
+    },
+    {
+      "nombre": "Mecánica de Fluidos",
+      "calificacion": 84,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7256"
+      }
+    },
+    {
+      "nombre": "Sistemas de Calidad",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7257"
+      }
+    },
+    {
+      "nombre": "Logística y Cadena de Suministro",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7258"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6731347d2ab806407e8e7259"
+  },
+  "nombre": "Paulette Versagui",
+  "edad": 22,
+  "carrera": "Ciencias de la Computación",
+  "promedio": 97,
+  "materias": [
+    {
+      "nombre": "Matemáticas para Computación",
+      "calificacion": 91,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725a"
+      }
+    },
+    {
+      "nombre": "Teoría de la Computación",
+      "calificacion": 85,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725b"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 92,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725c"
+      }
+    },
+    {
+      "nombre": "Desarrollo de Aplicaciones Móviles",
+      "calificacion": 88,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725d"
+      }
+    },
+    {
+      "nombre": "Análisis de Algoritmos",
+      "calificacion": 84,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725e"
+      }
+    },
+    {
+      "nombre": "Machine Learning",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e725f"
+      }
+    },
+    {
+      "nombre": "Desarrollo Web Avanzado",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "6731347d2ab806407e8e7260"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673137c42ab806407e8e758c"
+  },
+  "nombre": "Zamir Cruz",
+  "edad": 18,
+  "carrera": "Ingenieria Ambiental",
+  "promedio": 95,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "673137c42ab806407e8e758d"
+      }
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100,
+      "_id": {
+        "$oid": "673137c42ab806407e8e758e"
+      }
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "673137c42ab806407e8e758f"
+      }
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70,
+      "_id": {
+        "$oid": "673137c42ab806407e8e7590"
+      }
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "673137c42ab806407e8e7591"
+      }
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "673137c42ab806407e8e7592"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673137c42ab806407e8e7593"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673151dc2ab806407e8e8ee5"
+  },
+  "nombre": "Violeta Montefuerte",
+  "edad": 18,
+  "carrera": "Ingenieria en telecomunicaciones",
+  "promedio": 95,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8ee6"
+      }
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8ee7"
+      }
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8ee8"
+      }
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8ee9"
+      }
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8eea"
+      }
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8eeb"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673151dc2ab806407e8e8eec"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67320510de0c2d853d77374a"
+  },
+  "nombre": "Dua Lipa",
+  "edad": 29,
+  "carrera": "Cantante",
+  "promedio": 95,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673390271001437477f8d0de"
+  },
+  "nombre": "Pedro Soprano",
+  "edad": 21,
+  "carrera": "Ingeniería en Sistemas",
+  "promedio": 95,
+  "materias": [
+    {
+      "nombre": "Taller de Investigación",
+      "calificacion": 95,
+      "_id": {
+        "$oid": "673390271001437477f8d0df"
+      }
+    },
+    {
+      "nombre": "Gestión de Desarrollo de Software",
+      "calificacion": 100,
+      "_id": {
+        "$oid": "673390271001437477f8d0e0"
+      }
+    },
+    {
+      "nombre": "Programación lógica y funcional",
+      "calificacion": 80,
+      "_id": {
+        "$oid": "673390271001437477f8d0e1"
+      }
+    },
+    {
+      "nombre": "Conmutación y enrutamiento de redes de datos",
+      "calificacion": 70,
+      "_id": {
+        "$oid": "673390271001437477f8d0e2"
+      }
+    },
+    {
+      "nombre": "Matemáticas Discretas",
+      "calificacion": 89,
+      "_id": {
+        "$oid": "673390271001437477f8d0e3"
+      }
+    },
+    {
+      "nombre": "Programación web",
+      "calificacion": 87,
+      "_id": {
+        "$oid": "673390271001437477f8d0e4"
+      }
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "calificacion": 90,
+      "_id": {
+        "$oid": "673390271001437477f8d0e5"
+      }
+    }
+  ],
+  "__v": 0
+}]
