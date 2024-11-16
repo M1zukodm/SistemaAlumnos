@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        to bottom right,
+        #9664bb 0%,
+        #6f37a4 20%,
+        #95289b 40%,
+        #fe7098 60%,
+        #f973d2 80%
+    );
+    background-size: 200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.top-left, .top-right {
+    width: 100px;
+    height: 100px;
+}
+
+.center-title {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 120px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .center-title {
+        font-size:3em; /* Reduce el tamaño del título */
+    }
+
+    .top-left, .top-right {
+        width: 80px; /* Ajustar el tamaño de los logos */
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .center-title {
+        font-size: 2em; /* Aumentar la reducción del tamaño en pantallas más pequeñas */
+    }
+
+    .top-left, .top-right {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-content {
+        margin-top: auto;
+    }
+}
+.descripcion {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+.descripcion p {
+    background-color: #333;
+    color: white; 
+    border-radius: 10px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 20px;
+    max-width: 800px;
+    width: 100%; /* Asegura que el elemento ocupe el máximo ancho permitido */
+}
+
+
+.header-container {
+    text-align: center;
+    position: relative;
+}
+
+.center-title {
+    margin-bottom: 0;
+    color: white; /* Cambia el color si necesitas */
+}
+
+.sub-title {
+    margin-top: 0;
+    font-weight: bold;
+    color: white;
+}

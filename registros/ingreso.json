@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Miguel Cruz",
+    "edad": 21,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 95,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 95 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 100 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 80 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 70 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 89 },
+      { "nombre": "Programación web", "calificacion": 87 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 90 }
+    ]
+  }
+]

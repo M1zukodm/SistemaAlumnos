@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Andely Galván",
+    "edad": 22,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 97,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 95 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 100 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 80 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 70 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 89 },
+      { "nombre": "Programación web", "calificacion": 87 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 90 }
+    ]
+  },
+  {
+    "nombre": "Laura García",
+    "edad": 22,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 92,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 88 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 95 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 85 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 78 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 90 },
+      { "nombre": "Programación web", "calificacion": 93 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 90 }
+    ]
+  },
+  {
+    "nombre": "Carlos Mendoza",
+    "edad": 20,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 88,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 90 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 85 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 78 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 65 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 80 },
+      { "nombre": "Programación web", "calificacion": 82 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 92 }
+    ]
+  },
+  {
+    "nombre": "Ana Torres",
+    "edad": 23,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 91,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 93 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 90 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 85 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 72 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 95 },
+      { "nombre": "Programación web", "calificacion": 89 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 87 }
+    ]
+  },
+  {
+    "nombre": "Luis Fernández",
+    "edad": 21,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 85,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 84 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 87 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 75 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 70 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 88 },
+      { "nombre": "Programación web", "calificacion": 80 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 90 }
+    ]
+  },
+  {
+    "nombre": "Sofía López",
+    "edad": 22,
+    "carrera": "Ingeniería en Sistemas",
+    "promedio": 94,
+    "materias": [
+      { "nombre": "Taller de Investigación", "calificacion": 97 },
+      { "nombre": "Gestión de Desarrollo de Software", "calificacion": 100 },
+      { "nombre": "Programación lógica y funcional", "calificacion": 92 },
+      { "nombre": "Conmutación y enrutamiento de redes de datos", "calificacion": 88 },
+      { "nombre": "Matemáticas Discretas", "calificacion": 95 },
+      { "nombre": "Programación web", "calificacion": 90 },
+      { "nombre": "Inteligencia Artificial", "calificacion": 93 }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+    {
+      "nombre": "Ana López",
+      "edad": 22,
+      "carrera": "Ingeniería en Computación",
+      "promedio": 92,
+      "materias": [
+        { "nombre": "Algoritmos Avanzados", "calificacion": 88 },
+        { "nombre": "Sistemas Operativos", "calificacion": 95 },
+        { "nombre": "Seguridad Informática", "calificacion": 90 },
+        { "nombre": "Bases de Datos", "calificacion": 93 },
+        { "nombre": "Programación Orientada a Objetos", "calificacion": 85 },
+        { "nombre": "Redes de Computadoras", "calificacion": 94 },
+        { "nombre": "Arquitectura de Computadoras", "calificacion": 89 }
+      ]
+    },
+    {
+      "nombre": "Carlos García",
+      "edad": 23,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 87,
+      "materias": [
+        { "nombre": "Optimización de Procesos", "calificacion": 80 },
+        { "nombre": "Gestión de la Producción", "calificacion": 89 },
+        { "nombre": "Estadística Aplicada", "calificacion": 85 },
+        { "nombre": "Ingeniería de Materiales", "calificacion": 90 },
+        { "nombre": "Mecánica de Fluidos", "calificacion": 84 },
+        { "nombre": "Sistemas de Calidad", "calificacion": 87 },
+        { "nombre": "Logística y Cadena de Suministro", "calificacion": 90 }
+      ]
+    },
+    {
+      "nombre": "Laura Martínez",
+      "edad": 20,
+      "carrera": "Ciencias de la Computación",
+      "promedio": 89,
+      "materias": [
+        { "nombre": "Matemáticas para Computación", "calificacion": 91 },
+        { "nombre": "Teoría de la Computación", "calificacion": 85 },
+        { "nombre": "Inteligencia Artificial", "calificacion": 92 },
+        { "nombre": "Desarrollo de Aplicaciones Móviles", "calificacion": 88 },
+        { "nombre": "Análisis de Algoritmos", "calificacion": 84 },
+        { "nombre": "Machine Learning", "calificacion": 90 },
+        { "nombre": "Desarrollo Web Avanzado", "calificacion": 87 }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloRegistro.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="recursos/alumno2.png"> 
+
+    <title>Registro de alumnos</title>
+</head>
+<body>
+  <br>
+  <h1>Información de los Estudiantes</h1>
+  <div class="scrollable-container">
+      <div id="contenedor-estudiantes" class="container"></div>
+  </div>
+
+  <div class="fixed-refresh-button">
+    <button class="btn btn-primary" onclick="obtenerEstudiantes()">
+      <i class="fas fa-sync-alt"></i> <!-- Ícono de refrescar -->
+    </button>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+    <!-- Buscador -->
+    <div style="flex-grow: 1; margin-right: 10px;">
+      <input type="text" id="buscador" placeholder="Buscar..." class="form-control" style="width: 200px;">
+    </div>
+  
+    <!-- Card del total de alumnos -->
+    <div class="card text-white bg-primary mb-3" style="max-width: 12rem; padding: 5px;">
+      <div class="card-header" style="padding: 5px; font-size: 14px;">Total de Alumnos</div>
+      <div class="card-body" style="padding: 10px;">
+        <h5 class="card-title" id="totalAlumnos" style="font-size: 18px; text-align: center; margin: 0;">0</h5>
+      </div>
+    </div>
+  </div>
+  
+
+  <div style="background-color: black; color: white; padding: 15px; margin-top: 20px; border-radius: 5px; text-align: center;">
+    <h2 style="margin-bottom: 10px;">Subir archivos</h2>
+    <div style="display: inline-block;">
+      <input type="file" id="jsonFileInput" accept=".json" class="form-control-file">
+    </div>
+    <button class="btn btn-success" onclick="subirJSON()" style="margin-top: 10px;">Subir JSON</button>
+  </div>
+  
+
+
+<br>  
+  
+
+
+  <!-- Tu código JavaScript para obtener y mostrar los estudiantes -->
+  <script>
+async function obtenerEstudiantes() {
+  try {
+    const response = await fetch('/api/estudiantes');
+    const estudiantes = await response.json();
+
+    const contenedor = document.getElementById('contenedor-estudiantes');
+    const totalAlumnosCard = document.getElementById('totalAlumnos'); // Obtiene el elemento para mostrar el total
+
+    if (estudiantes.length === 0) {
+      contenedor.innerHTML = '<p>No se encontraron estudiantes</p>';
+      totalAlumnosCard.textContent = '0'; // Muestra 0 si no hay estudiantes
+      return;
+    }
+
+    // Actualiza la card con el total de alumnos
+    totalAlumnosCard.textContent = estudiantes.length;
+
+    let html = '<table id="tablaEstudiantes" class="table table-bordered"><thead><tr><th>Nombre Completo</th><th>Edad</th><th>Carrera</th><th>Promedio</th><th>Materias : Promedio</th><th>Acciones</th></tr></thead><tbody>';
+
+    estudiantes.forEach(estudiante => {   
+   // Suponiendo que `estudiante.materias` es un array de objetos con materia y calificación
+
+// Opción 1: Lista de materias
+let materiasHTML = '<ul>'; // Abre la lista
+estudiante.materias.forEach(materia => {
+  materiasHTML += `<li>${materia.nombre}: ${materia.calificacion}</li>`; // Agrega cada materia y calificación a la lista
+});
+materiasHTML += '</ul>';     //Cierra la lista
+
+// Opción 2: Materias separadas por comas 
+//let materiasHTML = estudiante.materias.map(materia => `${materia.nombre}: ${materia.calificacion}`).join(', ');
+
+// Se usa la lista generada (Opción 1) o las materias con comas (Opción 2)
+html += `<tr>
+        <td>${estudiante.nombre}</td>
+        <td>${estudiante.edad}</td>
+        <td>${estudiante.carrera}</td>
+        <td>${estudiante.promedio}</td>
+        <td class="text-justify">${materiasHTML}</td> <!-- Muestra la lista de materias y calificaciones -->
+        <td class="text-center">
+        <button class="btn btn-warning btn-sm mb-4 font-weight-bold" style="color: black;" onclick="actualizarEstudiante('${estudiante._id}')"><b>Actualizar</b></button><br>
+<button class="btn btn-danger btn-sm font-weight-bold" style="color: black;" onclick="borrarEstudiante('${estudiante._id}')"><b>Borrar</b></button>
+
+        </td>
+      </tr>`;
+    });
+    // Cierra la tabla
+html += '</tbody></table>';
+    
+
+    contenedor.innerHTML = html;
+  } catch (error) {
+    console.error('Error al obtener los estudiantes:', error);
+    document.getElementById('contenedor-estudiantes').innerText = 'Error al obtener los datos de los estudiantes, SERVIDOR APAGADO.';
+  }
+}
+
+
+
+    async function subirJSON() {
+      const fileInput = document.getElementById('jsonFileInput');
+      const file = fileInput.files[0];
+
+      if (!file) {
+        alert('Por favor selecciona un archivo .json');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = async function(event) {
+        try {
+          const jsonData = JSON.parse(event.target.result);
+
+          const response = await fetch('/api/estudiantes', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonData)
+          });
+
+          if (response.ok) {
+            alert('Datos subidos exitosamente');
+            obtenerEstudiantes(); // Recargar la lista de estudiantes
+            fileInput.value = '';
+          } else {
+            alert('Error al subir los datos');
+          }
+        } catch (error) {
+          console.error('Error al leer el archivo .json:', error);
+          alert('Hubo un error al procesar el archivo .json');
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    //Para actualizar
+    async function actualizarEstudiante(id) {
+    // Obtiene los datos del estudiante para mostrar en el formulario
+    try {
+      const response = await fetch(`/api/estudiantes/${id}`);
+      const estudiante = await response.json();
+
+      // Crea un formulario básico para editar los datos del estudiante
+      const nombre = prompt('Nombre:', estudiante.nombre);
+      if (nombre === null) return; // Cancela la actualización si se cierra el prompt
+
+      const edad = prompt('Edad:', estudiante.edad);
+      if (edad === null) return;
+
+      const carrera = prompt('Carrera:', estudiante.carrera);
+      if (carrera === null) return;
+
+      const promedio = prompt('Promedio:', estudiante.promedio);
+      if (promedio === null) return;
+
+      // Convierte los datos en el formato necesario
+      const datosActualizados = {
+        nombre: nombre,
+        edad: parseInt(edad, 10),
+        carrera: carrera,
+        promedio: parseFloat(promedio)
+      };
+
+      // Envía la solicitud PUT para actualizar el estudiante
+      const updateResponse = await fetch(`/api/estudiantes/${id}`, {
+  method: 'PUT',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(datosActualizados)
+});
+
+      if (updateResponse.ok) {
+        alert('Estudiante actualizado correctamente');
+        obtenerEstudiantes(); // Vuelve a cargar la lista de estudiantes
+      } else {
+        alert('Error al actualizar el estudiante');
+      }
+    } catch (error) {
+      console.error('Error al obtener o actualizar el estudiante:', error);
+    }
+  }
+
+    //Para borrar
+   // Función para eliminar un estudiante
+async function borrarEstudiante(id) {
+  try {
+    const response = await fetch(`/api/estudiantes/${id}`, {
+      method: 'DELETE', // Método HTTP DELETE
+    });
+
+    if (response.ok) {
+      alert('Estudiante eliminado correctamente');
+      // Recargar los estudiantes después de eliminar
+      obtenerEstudiantes(); 
+    } else {
+      alert('Error al eliminar el estudiante');
+    }
+  } catch (error) {
+    console.error('Error al eliminar el estudiante:', error);
+    alert('Hubo un error al eliminar el estudiante');
+  }
+}
+  //BUSCADOR
+  // Filtrar las filas de la tabla según la entrada del usuario
+  document.getElementById('buscador').addEventListener('keyup', function() {
+    const filtro = this.value.toLowerCase();
+    const filas = document.querySelectorAll('#tablaEstudiantes tbody tr');
+
+    filas.forEach(fila => {
+      const textoFila = fila.textContent.toLowerCase();
+      if (textoFila.includes(filtro)) {
+        fila.style.display = ''; // Mostrar fila si coincide
+      } else {
+        fila.style.display = 'none'; // Ocultar fila si no coincide
+      }
+    });
+  });
+
+
+    obtenerEstudiantes();
+  </script>
+
+  <div class="fixed-button">
+      <a href="inicio.html" class="btn btn-primary">
+          <i class="fa-solid fa-star"></i> Inicio
+      </a>
+  </div>
+</body>
+</html>
