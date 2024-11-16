@@ -124,7 +124,7 @@ app.post('/api/estudiantes', async (req, res) => {
 
 
 
-app.get('/registro.html', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'registro.html'));
 });
 
