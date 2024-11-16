@@ -2,19 +2,19 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const app = express();
-const PORT = 3000;
+
+const PORT = process.env.PORT || 3000;
 
 // Cargar variables de entorno desde .env
 require('dotenv').config();
 
 // Conexión a MongoDB
  //conexion local   /*mongoose.connect('mongodb://localhost:27017/CatalogoAlumnos', {  */
- mongoose.connect(process.env.MONGO_URI, {
-})
-.then(() => {
-  console.log('Conexión exitosa a MongoDB');
-})
-.catch(err => console.error('Error de conexión a MongoDB', err));
+ mongoose.connect(process.env.MONGO_URI, {})
+ .then(() => {
+   console.log('Conexión exitosa a MongoDB');
+ })
+ .catch(err => console.error('Error de conexión a MongoDB', err));
 
 // Esquema de la colección Estudiantes
 const estudianteSchema = new mongoose.Schema({
@@ -32,8 +32,7 @@ const estudianteSchema = new mongoose.Schema({
 
 const Estudiante = mongoose.model('Estudiantes', estudianteSchema);
 
-// Configuración de archivos estáticos
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 // Nueva ruta para obtener todos los estudiantes en formato JSON
 app.get('/api/estudiantes', async (req, res) => {
