@@ -2,15 +2,16 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const app = express();
-const PORT = 3000;
+
+// Usa el puerto proporcionado por Railway o 3000 como fallback
+const PORT = process.env.PORT || 3000;
 
 // Cargar variables de entorno desde .env
 require('dotenv').config();
 
 // Conexión a MongoDB
  //conexion local   /*mongoose.connect('mongodb://localhost:27017/CatalogoAlumnos', {  */
- mongoose.connect(process.env.MONGO_URI, {
-})
+mongoose.connect(process.env.MONGO_URI, {})
 .then(() => {
   console.log('Conexión exitosa a MongoDB');
 })
@@ -125,10 +126,10 @@ app.post('/api/estudiantes', async (req, res) => {
 
 
 
-// Ruta para servir registro.html
 app.get('/registro.html', (req, res) => {
-  res.sendFile(path.join(__dirname, 'registro.html'));
+  res.sendFile(path.join(__dirname, 'public', 'registro.html'));
 });
+
 
 // Servir archivos estáticos (CSS, JS, imágenes, etc.)
 app.use(express.static(path.join(__dirname, 'public')));
