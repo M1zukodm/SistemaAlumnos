@@ -199,9 +199,16 @@ html += '</tbody></table>';
     }
   }
 
-    //Para borrar
-   // Función para eliminar un estudiante
+    
+// Función para eliminar un estudiante con confirmación
 async function borrarEstudiante(id) {
+  const confirmacion = confirm("¿Estás seguro de que deseas eliminar este alumno?");
+  
+  if (!confirmacion) {
+    // Si el usuario cancela, no se realiza ninguna acción
+    return;
+  }
+
   try {
     const response = await fetch(`/api/estudiantes/${id}`, {
       method: 'DELETE', // Método HTTP DELETE
@@ -219,6 +226,7 @@ async function borrarEstudiante(id) {
     alert('Hubo un error al eliminar el estudiante');
   }
 }
+
   //BUSCADOR
   // Filtrar las filas de la tabla según la entrada del usuario
   document.getElementById('buscador').addEventListener('keyup', function() {
